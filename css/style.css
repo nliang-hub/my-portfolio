@@ -1,0 +1,97 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+  background: #f9f9f9;
+}
+
+h1 {
+  color: #2e6da4;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  color: #333;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#hidden-text {
+  color: red;
+  min-width: 320px;
+  display: inline-block;
+}
+
+form fieldset {
+  border: 1px solid #ccc;
+  padding: 1.5em;
+  margin-bottom: 2em;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.2em;
+}
+
+form label {
+  margin-bottom: 0.4em;
+  font-weight: bold;
+}
+
+form input,
+form textarea {
+  padding: 0.5em;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+form button,
+form input[type="submit"] {
+  margin-top: 1em;
+  padding: 0.6em 1.2em;
+  background: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form button:hover,
+form input[type="submit"]:hover {
+  background: #555;
+}
+
+.hidden {
+  display: none;
+}
+
+#skills-list {
+  margin: 2em auto 0 auto;
+  padding: 1em;
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  max-width: 300px;
+  text-align: left;
+}
+
+#skills-list ul {
+  list-style-type: disc;
+  padding-left: 1.5em;
+  margin: 0;
+}
+
+#skills-list li {
+  margin-bottom: 0.5em;
+  font-size: 1.1em;
+  color: #333;
+}

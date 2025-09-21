@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>My S3 Practice Site</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -18,13 +17,16 @@
     </nav>
   </header>
   <main>
-    <h1>Leelee's Code Crib</h1>
-    <p>
-      Here you’ll find my projects, my experiments, and my attempts at being a proper developer.<br>
-      <span id="hidden-text" aria-live="polite"></span>
-    </p>
-    <button id="toggle-btn" type="button" aria-controls="hidden-text">Reveal The Truth</button>
+    <h1>About Me</h1>
+    <button id="skills-btn">Skills</button>
+    <div id="skills-list" class="hidden">
+        <ul>
+            <li>Coding</li>
+            <li>Crying</li>
+            <li>Being Rubbed</li>
+        </ul>
+    </div>
   </main>
-  <script src="js/script.js" defer></script>
+  <script src="js/about.js" defer></script>
 </body>
 </html>
