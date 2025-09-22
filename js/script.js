@@ -31,3 +31,7 @@
     }
 
     btn.addEventListener('click', toggleText);
+
+    document.getElementById('theme-toggle').addEventListener('click', ()=>{
+        document.querySelector('body').classList.toggle('dark-theme');
+    });
